@@ -14,9 +14,7 @@ public class Main {
       System.out.print("Enter units consumed: ");
       int units = sc.nextInt();
       Plan plan = planFactory.getPlan(planType);
-      System.out.println(
-        "Billing amount for " + planType + " of units " + units
-      );
+      System.out.println("Billing amount for " + planType + " of units " + units);
       plan.getRate();
       plan.calculateBill(units);
     }
