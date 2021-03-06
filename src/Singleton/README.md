@@ -4,7 +4,7 @@ Singleton Pattern says that just "define a class that has only one instance and 
 
 In other words, a class must ensure that only single instance should be created and single object can be used by all other classes.
 
-There are two forms of singleton design pattern: 
+There are two forms of singleton design pattern:
 
 <b>Early Instantiation </b>: creation of instance at load time. <br>
 <b>Lazy Instantiation </b>: creation of instance when required.
