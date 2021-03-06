@@ -7,5 +7,11 @@ public class Main {
          */
         EarlyInstantiatedSingleton singleton = EarlyInstantiatedSingleton.getInstance();
         singleton.printObject();
+
+        /**
+         * @LazyInstantiatedSingleton Creates Instance when required
+         */
+        LazyInstantiatedSingleton lazyInstance = LazyInstantiatedSingleton.getInstance();
+        lazyInstance.printObject();
     }
 }
