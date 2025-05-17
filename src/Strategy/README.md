@@ -1,15 +1,6 @@
 ## Strategy Design Pattern
 
-A Strategy Pattern says that "defines a family of functionality, encapsulate each one, and make them interchangeable".
+The Strategy Design Pattern is a behavioral pattern used to define a family of algorithms, encapsulate each one, and make them interchangeable. This pattern allows a class's behavior to be selected at runtime.
 
-Benefits:
-
-- It provides a substitute to subclassing.
-- It defines each behavior within its own class, eliminating the need for conditional statements.
-- It makes it easier to extend and incorporate new behavior without changing the application.
-- When the multiple classes differ only in their behaviors.e.g. Servlet API.
-- It is used when you need different variations of an algorithm.
-
-Refer [link](https://www.javatpoint.com/strategy-pattern)
-
-(Abstract for factory, interface for strategy)
+### Real World analogy
+Think of a navigation app (like Google Maps). You can choose different strategies for reaching a destination: driving, walking, or biking. The app calculates the route based on the chosen strategy.
